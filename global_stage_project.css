@@ -16,33 +16,38 @@ h2 {
   font-size: 16px;
 }
 
-#top-image {
-  width: 100%;
-  position:	relative; /* 相対位置指定 */
-}
-
-#top-image img {
-  width: 100%;
+header {
+  background-image: url("global_business.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 500px;
 }
 
 .text1 {
-  position:	absolute; /* 絶対位置指定 */
   font-family: "メイリオ";
   font-size: 40px;
   font-weight: bold;
   color: white;
-  left: 150px;
-  bottom: 40px;
+  text-align: center;
+}
+
+.subscription {
+  text-align: center;
+}
+
+.subscription a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
 }
 
 .text2 {
-  position:	absolute; /* 絶対位置指定 */
   font-family: "メイリオ";
   font-weight: bold;
   color: white;
-  text-align: center;
-  bottom: 5px;
-  left: 750px;
+  text-align: left;
+  vertical-align: bottom;
 }
 
 .top-copy1 {
@@ -51,18 +56,10 @@ h2 {
 
 .top-copy2 {
   font-size: 18px;
+  text-align: center;
 }
 
-.subscription {
-  position:	absolute; /* 絶対位置指定 */
-  left: 500px;
-  bottom: 40px;
-}
-.subscription a {
-  font-weight: bold;
-  color: white;
-  text-decoration: none;
-}
+
 
 
 
