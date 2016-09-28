@@ -68,13 +68,38 @@ header {
 
 .advantage-icon {
   text-align: center;
-  margin: 15px;
 }
 
 .advantage-icon img {
   height: 200px;
   width: auto;
+  padding-top: 10px;
   padding-bottom: 10px;
+}
+
+#advantage {
+  text-align: center;
+}
+
+#news {
+  background-color: #CCFFFF;
+  margin: 20px;
+  width: 350px;
+  height: 320px;
+}
+
+#discussion {
+  background-color: #CCFFCC;
+  margin: 20px;
+  width: 350px;
+  height: 320px;
+}
+
+#english-camp {
+  background-color: #FFCC99;
+  margin: 20px;
+  width: 350px;
+  height: 320px;
 }
 
 #news h2 {
@@ -86,7 +111,7 @@ header {
 }
 
 #english-camp h2 {
-  color: orange;
+  color: #FF6600;
 }
 
 .advantage-text h2 {
