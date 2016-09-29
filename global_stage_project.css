@@ -16,6 +16,10 @@ h2 {
   font-size: 16px;
 }
 
+h3{
+  font-size: 12px;
+}
+
 header {
   background-image: url("global_business_2.jpg");
   background-position: 87% 50%;
@@ -170,14 +174,14 @@ header {
 
 .text-middle {
   padding-top: 60px;
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 #free_material .text-right {
-  width: 300px;
+  width: 330px;
   padding: 15px 15px 30px 15px;
   text-align: right;
-  background-color: rgba(0,90,204,0.7) ;
+  background-color: rgba(51,153,204,0.8) ;
   margin-left: auto;
 }
 
@@ -187,3 +191,33 @@ header {
   color: orange;
 }
 
+.footer-contents {
+  background-color: #3399CC;
+  color: white;
+  padding: 15px;
+}
+
+.fotter-about {
+  text-align: center;
+}
+
+.footer-contents .line-left {
+  border-left: 1px white solid;
+}
+
+.fotter-contents-text img {
+  padding: 10px 5px 35px 0;
+  max-width: 70px;
+  float: left;
+}
+
+.footer-copyright {
+  background-color: #333399;
+  padding: 5px 10px;
+  color: white;
+}
+
+.footer-menu ul li {
+  display: inline-block;
+  padding: 10px 15px 0 0;
+}
