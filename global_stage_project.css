@@ -3,6 +3,23 @@
     padding: 0;
 }
 
+.navbar-brand img {
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.navbar-brand {
+  width: 200px;
+  font-weight: bold;
+  padding-top: 8px;
+}
+
+.navbar-brand p {
+  padding-top: 10px;
+}
+
 body {
   font-family: "メイリオ", Meiryo, YuGothic, "游ゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
   font-size: 14px;
@@ -61,10 +78,14 @@ header {
   font-size: 18px;
 }
 
-#advantage {
-  margin-bottom: 20px;
+.registration {
+  padding-top: 5px
 }
-
+/*
+#advantage {
+  margin-bottom: 10px;
+}
+*/
 .corner-title {
   font-size: 28Px;
   color: #333399;
@@ -89,28 +110,26 @@ header {
 }
 
 .advantage-text {
+  font-size: 14px;
   text-align: center
 }
 
 #news {
 /*  background-color: #CCFFFF; */
-  margin: 15px;
+  margin: 0 15px;
   width: 350px;
-  height: 380px;
 }
 
 #discussion {
 /*  background-color: #CCFFCC; */
-  margin: 15px;
+  margin: 0 15px;
   width: 350px;
-  height: 380px;
 }
 
 #english-camp {
 /*  background-color: #FFCC99; */
-  margin: 15px;
+  margin: 0 15px;
   width: 350px;
-  height: 380px;
 }
 
 #news h1 {
@@ -211,6 +230,11 @@ header {
   float: left;
 }
 
+.github {
+  font-size:14px;
+  color: white;
+}
+
 .footer-copyright {
   background-color: #333399;
   padding: 5px 10px;
@@ -220,4 +244,6 @@ header {
 .footer-menu ul li {
   display: inline-block;
   padding: 10px 15px 0 0;
+  color: white !important;
+  text-decoration: none !important;
 }
