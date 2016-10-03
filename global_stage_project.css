@@ -239,11 +239,26 @@ header {
   background-color: #333399;
   padding: 5px 10px;
   color: white;
+  text-decoration: none;
+}
+
+.footer-title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .footer-menu ul li {
   display: inline-block;
   padding: 10px 15px 0 0;
-  color: white !important;
-  text-decoration: none !important;
+}
+
+.footer-menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-logo a {
+  text-decoration: none;
 }
